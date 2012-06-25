@@ -14,10 +14,14 @@
 
 @implementation ANViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    imageWheel = [[ANImageWheel alloc] initWithFrame:CGRectMake(10, 10, 300, 300)];
+    [imageWheel setImage:[UIImage imageNamed:@"fortune.png"]];
+    [imageWheel startAnimating:self];
+    [imageWheel setDrag:1];
+    [self.view addSubview:imageWheel];
 }
 
 - (void)viewDidUnload

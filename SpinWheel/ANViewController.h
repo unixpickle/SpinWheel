@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ANImageWheel.h"
 
-@interface ANViewController : UIViewController
+@interface ANViewController : UIViewController {
+    ANImageWheel * imageWheel;
+}
 
 @end

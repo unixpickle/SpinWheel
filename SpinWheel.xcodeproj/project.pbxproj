@@ -16,6 +16,10 @@
 		FA6A8F5A1597D31800E9634D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6A8F581597D31800E9634D /* MainStoryboard_iPhone.storyboard */; };
 		FA6A8F5D1597D31800E9634D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6A8F5B1597D31800E9634D /* MainStoryboard_iPad.storyboard */; };
 		FA6A8F601597D31800E9634D /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8F5F1597D31800E9634D /* ANViewController.m */; };
+		FA6A8F681597D32300E9634D /* ANSpinWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8F671597D32300E9634D /* ANSpinWheel.m */; };
+		FAEBB0CA1597DCBA00DAFE00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEBB0C91597DCBA00DAFE00 /* QuartzCore.framework */; };
+		FAEBB0D11597DDA400DAFE00 /* ANImageWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBB0D01597DDA400DAFE00 /* ANImageWheel.m */; };
+		FAEBB0D31597DF2900DAFE00 /* fortune.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBB0D21597DF2900DAFE00 /* fortune.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,22 @@
 		FA6A8F461597D31800E9634D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA6A8F481597D31800E9634D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA6A8F4A1597D31800E9634D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FA6A8F4E1597D31800E9634D /* SpinWheel-Info.plist */ = {isa = PBXFileReference; path = "SpinWheel-Info.plist"; sourceTree = "<group>"; };
+		FA6A8F4E1597D31800E9634D /* SpinWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinWheel-Info.plist"; sourceTree = "<group>"; };
 		FA6A8F501597D31800E9634D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA6A8F521597D31800E9634D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA6A8F541597D31800E9634D /* SpinWheel-Prefix.pch */ = {isa = PBXFileReference; path = "SpinWheel-Prefix.pch"; sourceTree = "<group>"; };
-		FA6A8F551597D31800E9634D /* ANAppDelegate.h */ = {isa = PBXFileReference; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		FA6A8F541597D31800E9634D /* SpinWheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpinWheel-Prefix.pch"; sourceTree = "<group>"; };
+		FA6A8F551597D31800E9634D /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
 		FA6A8F561597D31800E9634D /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
 		FA6A8F591597D31800E9634D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		FA6A8F5C1597D31800E9634D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		FA6A8F5E1597D31800E9634D /* ANViewController.h */ = {isa = PBXFileReference; path = ANViewController.h; sourceTree = "<group>"; };
+		FA6A8F5E1597D31800E9634D /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
 		FA6A8F5F1597D31800E9634D /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
+		FA6A8F661597D32300E9634D /* ANSpinWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSpinWheel.h; sourceTree = "<group>"; };
+		FA6A8F671597D32300E9634D /* ANSpinWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSpinWheel.m; sourceTree = "<group>"; };
+		FAEBB0C91597DCBA00DAFE00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAEBB0CF1597DDA400DAFE00 /* ANImageWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageWheel.h; sourceTree = "<group>"; };
+		FAEBB0D01597DDA400DAFE00 /* ANImageWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageWheel.m; sourceTree = "<group>"; };
+		FAEBB0D21597DF2900DAFE00 /* fortune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fortune.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEBB0CA1597DCBA00DAFE00 /* QuartzCore.framework in Frameworks */,
 				FA6A8F471597D31800E9634D /* UIKit.framework in Frameworks */,
 				FA6A8F491597D31800E9634D /* Foundation.framework in Frameworks */,
 				FA6A8F4B1597D31800E9634D /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +80,7 @@
 		FA6A8F451597D31800E9634D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAEBB0C91597DCBA00DAFE00 /* QuartzCore.framework */,
 				FA6A8F461597D31800E9634D /* UIKit.framework */,
 				FA6A8F481597D31800E9634D /* Foundation.framework */,
 				FA6A8F4A1597D31800E9634D /* CoreGraphics.framework */,
@@ -86,6 +98,10 @@
 				FA6A8F5E1597D31800E9634D /* ANViewController.h */,
 				FA6A8F5F1597D31800E9634D /* ANViewController.m */,
 				FA6A8F4D1597D31800E9634D /* Supporting Files */,
+				FA6A8F661597D32300E9634D /* ANSpinWheel.h */,
+				FA6A8F671597D32300E9634D /* ANSpinWheel.m */,
+				FAEBB0CF1597DDA400DAFE00 /* ANImageWheel.h */,
+				FAEBB0D01597DDA400DAFE00 /* ANImageWheel.m */,
 			);
 			path = SpinWheel;
 			sourceTree = "<group>";
@@ -93,6 +109,7 @@
 		FA6A8F4D1597D31800E9634D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAEBB0D21597DF2900DAFE00 /* fortune.png */,
 				FA6A8F4E1597D31800E9634D /* SpinWheel-Info.plist */,
 				FA6A8F4F1597D31800E9634D /* InfoPlist.strings */,
 				FA6A8F521597D31800E9634D /* main.m */,
@@ -155,6 +172,7 @@
 				FA6A8F511597D31800E9634D /* InfoPlist.strings in Resources */,
 				FA6A8F5A1597D31800E9634D /* MainStoryboard_iPhone.storyboard in Resources */,
 				FA6A8F5D1597D31800E9634D /* MainStoryboard_iPad.storyboard in Resources */,
+				FAEBB0D31597DF2900DAFE00 /* fortune.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +186,8 @@
 				FA6A8F531597D31800E9634D /* main.m in Sources */,
 				FA6A8F571597D31800E9634D /* ANAppDelegate.m in Sources */,
 				FA6A8F601597D31800E9634D /* ANViewController.m in Sources */,
+				FA6A8F681597D32300E9634D /* ANSpinWheel.m in Sources */,
+				FAEBB0D11597DDA400DAFE00 /* ANImageWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 				FA6A8F651597D31800E9634D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
