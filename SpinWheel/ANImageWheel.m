@@ -27,6 +27,17 @@
     return self;
 }
 
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    if ((self = [super initWithCoder:aDecoder])) {
+        imageView = [[UIImageView alloc] initWithFrame:self.bounds];
+        [imageView setContentMode:UIViewContentModeScaleAspectFill];
+        [self addSubview:imageView];
+    }
+    
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame image:(UIImage *)anImage {
     if ((self = [self initWithFrame:frame])) {
         [imageView setImage:anImage];
